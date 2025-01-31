@@ -38,8 +38,8 @@
 }
  </style>
 </head>
-<body class="sora">
-  <header class="">
+<body class="sora m-0 p-0">
+  <header class="mx-auto  lg:mx-0 ">
     <!-- navbar start here  -->
     <nav class="navbar lg:px-24 px-4 justify-between border-[1px] border-[#179800] lg:border-none py-6">
       <div class=" ">
@@ -72,19 +72,22 @@
           <h1 class="text-2xl lg:text-5xl font-bold  ">Freshness <span class="text-[#179800]">You Can <br>Count</span>  On, Prices You’ll Love</h1>
             <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
         </div>
-        <div>
-          <img src="./c2-assets/hero-vegetables.png" alt="">
+        <div class="">
+          <img class="  mx-auto" src="./c2-assets/hero-vegetables.png" alt="">
         </div>
       </div>
      </section>
-     <!-- card section is start here -->
-      <section class="py-24">
-        <div class="lg:px-20 px-4 space-y-4">
+   
+  </header>
+  <main class="">
+      <!-- card section is start here -->
+      <section class=" py-20 text-center lg:px-16  mx-auto ">
+        <div class="px-10 lg:px-14  text-center  space-y-4">
           <h1 class="font-semibold text-3xl text-start text-[#179800]">Service</h1>
           <!-- card section is start here -->
-          <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
+          <div class="grid grid-cols-1 gap-4  items-center lg:grid-cols-3">
             <!-- card -1 -->
-            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+            <div class="card bg-[#EFEBE3]  shadow-xl">
               <figure class="px-10 pt-10 rounded-md">
                 <img src="./c2-assets/service.png"    alt=""class=" rounded-full  bg-white p-6" />
               </figure>
@@ -95,23 +98,23 @@
             </div>
             <!-- card-1 end -->
              <!-- card -2 -->
-            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+            <div class="card bg-[#EFEBE3]  shadow-xl">
               <figure class="px-10 pt-10 rounded-md">
                 <img src="./c2-assets/delivery.png"    alt=""class=" rounded-full  bg-white p-6" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="text-2xl font-bold card-title">24/7 Services </h2>
+                <h2 class="text-2xl font-bold card-title">Fast Delivery</h2>
                 <p class="text-gray-500 font-medium">Adjustable Vegetable Cutter Onion Chopper Mandolin Slicer Pro 23 in 1professional Food Chopper Multifunctional Vegetable Chopper, White</p>
               </div>
             </div>
             <!-- card-2 end -->
              <!-- card -3 -->
-            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+            <div class="card bg-[#EFEBE3]  shadow-xl">
               <figure class="px-10 pt-10 rounded-md">
                 <img src="./c2-assets/healthy.png"    alt=""class=" rounded-full  bg-white p-6" />
               </figure>
               <div class="card-body items-center text-center">
-                <h2 class="text-2xl font-bold card-title">24/7 Services </h2>
+                <h2 class="text-2xl font-bold card-title">Healthy Products  </h2>
                 <p class="text-gray-500 font-medium">Adjustable Vegetable Cutter Onion Chopper Mandolin Slicer Pro 23 in 1professional Food Chopper Multifunctional Vegetable Chopper, White</p>
               </div>
             </div>
@@ -120,23 +123,88 @@
           <!-- end here -->
         </div>
       </section>
-      <!-- Arrival & Offers section is start here -->
-       <section class="py-20 lg:px-24 px-4">
-         <div>
-          <!-- card-1 -->
+      <!-- healthy food section -->
+       <section class="bg-[#EFEBE3] py-24">
+        <div class="px-4 lg:px-16 mx-auto">
+          <h1 class=" text-2xl lg:text-4xl py-8  font-bold text-start text-[#179800] ">Popular Products</h1>
+          <!-- mother container start -->
+          <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
+            <!-- main card  -->
             <div>
-               <div class="bg-[#115414] rounded-lg">
-                <img src="./c2-assets/dawat-logo.png" alt="">
-                <button class="">Cook Exotic Dishes</button>
+
+              <div class="card   bg-gradient-to-br from-[#179800]  to-green-50">
+                <div class="px-4 pt-4 space-y-6">
+                  <h2 class="text-3xl font-bold text-white">30% off</h2>
+                  <p class="font-semibold text-base text-gray-800">Here is some useful information, based on WHO recommendations, to follow a healthy diet, and the benefits of doing so.</p>
+                  <div class="card-actions justify-start">
+                    <button class="btn ">Buy Now</button>
+                  </div>
+                  <div class="flex justify-end">
+                  <div class="  max-w-52 ">
+                    <img class="w-full" src="./c2-assets/vegetable-offer.png" alt="">
+                  </div>
+                </div>
+                </div>
+              </div>
+
+            </div>
+            <!-- main card -end -->
+            <!-- sub card -->
+            <div class="grid grid-cols-2 lg:grid-cols-3">
+              <!-- sub card-1 -->
+              <div class="card card-side bg-base-100 shadow-xl">
+                <figure>
+                  <img
+                    src="https://img.daisyui.com/images/stock/photo-1635805737707-575885ab0820.webp"
+                    alt="Movie" />
+                </figure>
+                <div class="card-body">
+                  <h2 class="card-title">New movie is released!</h2>
+                  <p>Click the button to watch on Jetflix app.</p>
+                  <div class="card-actions justify-end">
+                    <button class="btn btn-primary">Watch</button>
+                  </div>
+                </div>
+              </div>
+              <!-- sub card 1 end  -->
+            </div>
+            <!-- sub card end -->
+          </div>
+          <!-- mother container end here -->
+        </div>
+       </section>
+      <!-- Arrival & Offers section is start here -->
+       <section class="py-20   px-4 lg:px-20  ">
+        <h1 class=" text-2xl lg:text-4xl py-5  font-bold text-[#179800]">Arrival & Offers</h1>
+         <div class="grid grid-cols-1 gap-5 lg:grid-cols-5">
+          <!-- card-1 -->
+            <div class="text-white flex bg-[#115414] lg:justify-center items-center gap-5 lg:gap-10 rounded-3xl lg:col-span-3  py-4 px-3">
+
+               <div class="space-y-8 flex-1 ">
+                 <img src="./c2-assets/dawat-logo.png" alt="">
+                 <button class="btn w-[10rem] lg:w-auto text-sm border-none px-1 lg:px-8 text-white bg-[#63B76D] hover:text-[#63B76D]">Cook Exotic Dishes</button>
+                 <h4 class="text-lg lg:text-2xl  font-light">UP to <span class="font-bold">20% OFF</span></h4>
                </div>
-               <div></div>
+               <div class="flex-1">
+                <img class="" src="./c2-assets/dawat-mock-up.png" alt="">
+               </div>
+
             </div>
             <!-- card-2 -->
-            <div></div>
+            <div class="bg-[#102861] text-white flex justify-center items-center gap-5 rounded-3xl py-6 px-5 col-span-2">
+              <div class="space-y-5 flex-2">
+                <img src="./c2-assets/india-gate-logo.png" alt="">
+                <button class="btn text-base border-none px-2 lg:px-10 text-white bg-[#2A4D97] hover:text-[#2A4D97]">World’s No.1 Rice</button>
+                <h4 class="lg:text-3xl text-xl font-light">UP to <span class="font-bold">40% OFF</span></h4>
+              </div>
+              <div class="flex-1">
+                <img src="./c2-assets/india-gate-mock-up.png" alt="">
+              </div>
+            </div>
          </div>
        </section>
-  </header>
-  <main></main>
+
+  </main>
   <footer></footer>
 </body>
 </html>
