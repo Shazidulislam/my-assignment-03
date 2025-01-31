@@ -81,7 +81,7 @@
   </header>
   <main class="">
       <!-- card section is start here -->
-      <section class=" py-20 text-center lg:px-16  mx-auto ">
+      <section class="  py-20 text-center lg:px-16  mx-auto ">
         <div class="px-10 lg:px-14  text-center  space-y-4">
           <h1 class="font-semibold text-3xl text-start text-[#179800]">Service</h1>
           <!-- card section is start here -->
@@ -125,12 +125,12 @@
       </section>
       <!-- healthy food section -->
        <section class="bg-[#EFEBE3] py-24">
-        <div class="px-4 lg:px-16 mx-auto">
+        <div class="px-2 lg:px-16 mx-auto">
           <h1 class=" text-2xl lg:text-4xl py-8  font-bold text-start text-[#179800] ">Popular Products</h1>
           <!-- mother container start -->
-          <div class="flex flex-col lg:flex-row justify-center items-center gap-4">
+          <div class="grid grid-cols-1 lg:grid-cols-3 justify-center items-center gap-4">
             <!-- main card  -->
-            <div>
+            <div class="col-span-1 ">
 
               <div class="card   bg-gradient-to-br from-[#179800]  to-green-50">
                 <div class="px-4 pt-4 space-y-6">
@@ -140,8 +140,8 @@
                     <button class="btn ">Buy Now</button>
                   </div>
                   <div class="flex justify-end">
-                  <div class="  max-w-52 ">
-                    <img class="w-full" src="./c2-assets/vegetable-offer.png" alt="">
+                  <div class="  max-w-52 h-[180px] ">
+                    <img class="w-full h-full" src="./c2-assets/vegetable-offer.png" alt="">
                   </div>
                 </div>
                 </div>
@@ -149,22 +149,157 @@
 
             </div>
             <!-- main card -end -->
+
             <!-- sub card -->
-            <div class="grid grid-cols-2 lg:grid-cols-3">
+            <div class="grid grid-cols-2 col-span-2 lg:grid-cols-3 gap-y-4 gap-x-2">
+             
               <!-- sub card-1 -->
-              <div class="card card-side bg-base-100 shadow-xl">
-                <figure>
-                  <img
-                    src=""
-                    alt="Tomato" />
+               <div>
+              <div class="flex justify-center  p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
                 </figure>
-                <div class="card-body">
-                  <i class="fa-solid fa-star"></i>
-                  <h1>Onion 1 KG</h1>
-                  <P>$45.24</P>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Potato 1.5 KG</h1>
+                  <P class="text-xl font-medium">$45.24</P>
                 </div>
               </div>
+            </div>
               <!-- sub card 1 end  -->
+              <!-- sub card-2 -->
+              <div class="flex justify-center p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Tomato 1 KG</h1>
+                  <P class="text-xl font-medium">$40.24</P>
+                </div>
+              </div>
+              <!-- sub card 2 end  -->
+              <!-- sub card-3 -->
+              <div class="flex justify-center p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Onion 1.5 KG</h1>
+                  <P class="text-xl font-medium">$65.24</P>
+                </div>
+              </div>
+              <!-- sub card 3 end  -->
+              <!-- sub card-4 -->
+              <div class="flex justify-center p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>3.5
+                  </div>
+                  <h1 class="text-xl font-bold">Tomato 500 g</h1>
+                  <P class="text-xl font-medium">$25.24</P>
+                </div>
+              </div>
+              <!-- sub card 4 end  -->
+              <!-- sub card-5 -->
+              <div class="flex justify-center p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Onion 500 g</h1>
+                  <P class="text-xl font-medium">$25.24</P>
+                </div>
+              </div>
+              <!-- sub card 5 end  -->
+              <!-- sub card-6 -->
+              <div class="flex justify-center p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                  <P class="text-xl font-medium">$45.24</P>
+                </div>
+              </div>
+              <!-- sub card 6 end  -->
+              <!-- sub card-7 -->
+              <div class="flex justify-center p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                  <P class="text-xl font-medium">$45.24</P>
+                </div>
+              </div>
+              <!-- sub card 7 end  -->
+              <!-- sub card-8 -->
+              <div class="flex justify-center p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Onion 1 KG</h1>
+                  <P class="text-xl font-medium">$45.24</P>
+                </div>
+              </div>
+              <!-- sub card 8 end  -->
+              <!-- sub card-9 -->
+              <div class=" hidden lg:flex  justify-center  p-2 items-center bg-[#FFFFFF] rounded-xl   shadow-xl">
+                <div class="">
+                <figure class="w-[8rem]">
+                  <img class="w-3/4 bg-gray-300 p-2 rounded-md" src="./c2-assets/onion-2.png"alt="Tomato" />
+                </figure>
+              </div>
+                <div class=" space-y-1">
+                  <div>
+                  <i class="fa-solid fa-star text-orange-400"></i>4.5
+                  </div>
+                  <h1 class="text-xl font-bold">Tomato 1 KG</h1>
+                  <P class="text-xl font-medium">$40.24</P>
+                </div>
+              </div>
+              <!-- sub card 9 end  -->
+
             </div>
             <!-- sub card end -->
           </div>
