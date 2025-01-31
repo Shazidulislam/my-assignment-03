@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Mart </title>
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- google font cdn for normal -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+  <!-- daisy ui and tailwind css cdn -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind  customize  style cdn  -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'text-heading': "ADLaM Display", 
+            'text-normal': "Sora",
+
+          }
+        }
+      }
+    }
+  </script>
+<!-- css style cdn  -->
+ <style>
+.sora {
+  font-family: "Sora", serif;
+  font-style: normal;
+}
+ </style>
+</head>
+<body class="sora">
+  <header class="">
+    <!-- navbar start here  -->
+    <nav class="navbar lg:px-24 px-4 justify-between border-[1px] border-[#179800] lg:border-none py-6">
+      <div class=" ">
+        <img src="./c2-assets/logo-header.png" class="hidden lg:block w-4/6" alt="">
+        <img src="./c2-assets/logo-footer.png" class="lg:hidden block" alt="">
+      </div>
+      <div>
+        <ul class="hidden navbar-center  lg:flex justify-center items-center ">
+          <li><a class="py-3 px-6 hover:bg-gray-200 rounded-md " href="#">Product</a></li>
+          <li><a class="py-3 px-6 hover:bg-gray-200 rounded-md line-clamp-2" href="#">Service</a></li>
+          <li><a class="py-3 px-6 hover:bg-gray-200 rounded-md line-clamp-2" href="#">Contact US</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="block lg:hidden text-[#179800] ">
+          <i class="fa-solid fa-bars text-3xl cursor-pointer"></i>
+        </div>
+        <div class="space-x-4 hidden sm:block ">
+          <i class="fa-solid fa-cart-shopping cursor-pointer text-xl"></i>
+          <i class="fa-solid fa-magnifying-glass cursor-pointer text-xl"></i>
+          <button class="btn bg-white border-2 px-8 py-2 border-[#179800]">Login</button>
+          <button class="btn bg-[#179800] px-8 py-2 text-white hover:text-black ">Register</button>
+        </div>
+      </div>
+    </nav>
+    <!-- banner section start here  -->
+     <section class="bg-gradient-to-t pt-24 from-[#EFEBE3] to-[#FFFFFF]">
+      <div class="lg:px-24 px-4  flex flex-col justify-center items-center ">
+        <div class="w-3/5 space-y-6 text-center">
+          <h1 class="text-2xl lg:text-5xl font-bold  ">Freshness <span class="text-[#179800]">You Can <br>Count</span>  On, Prices You’ll Love</h1>
+            <p>Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+        </div>
+        <div>
+          <img src="./c2-assets/hero-vegetables.png" alt="">
+        </div>
+      </div>
+     </section>
+     <!-- card section is start here -->
+      <section class="py-24">
+        <div class="lg:px-20 px-4 space-y-4">
+          <h1 class="font-semibold text-3xl text-start text-[#179800]">Service</h1>
+          <!-- card section is start here -->
+          <div class="grid grid-cols-1 gap-4 lg:grid-cols-3">
+            <!-- card -1 -->
+            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+              <figure class="px-10 pt-10 rounded-md">
+                <img src="./c2-assets/service.png"    alt=""class=" rounded-full  bg-white p-6" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl font-bold card-title">24/7 Services </h2>
+                <p class="text-gray-500 font-medium">Adjustable Vegetable Cutter Onion Chopper Mandolin Slicer Pro 23 in 1professional Food Chopper Multifunctional Vegetable Chopper, White</p>
+              </div>
+            </div>
+            <!-- card-1 end -->
+             <!-- card -2 -->
+            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+              <figure class="px-10 pt-10 rounded-md">
+                <img src="./c2-assets/delivery.png"    alt=""class=" rounded-full  bg-white p-6" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl font-bold card-title">24/7 Services </h2>
+                <p class="text-gray-500 font-medium">Adjustable Vegetable Cutter Onion Chopper Mandolin Slicer Pro 23 in 1professional Food Chopper Multifunctional Vegetable Chopper, White</p>
+              </div>
+            </div>
+            <!-- card-2 end -->
+             <!-- card -3 -->
+            <div class="card bg-[#EFEBE3] w-96 shadow-xl">
+              <figure class="px-10 pt-10 rounded-md">
+                <img src="./c2-assets/healthy.png"    alt=""class=" rounded-full  bg-white p-6" />
+              </figure>
+              <div class="card-body items-center text-center">
+                <h2 class="text-2xl font-bold card-title">24/7 Services </h2>
+                <p class="text-gray-500 font-medium">Adjustable Vegetable Cutter Onion Chopper Mandolin Slicer Pro 23 in 1professional Food Chopper Multifunctional Vegetable Chopper, White</p>
+              </div>
+            </div>
+            <!-- card-3 end -->
+          </div>
+          <!-- end here -->
+        </div>
+      </section>
+      <!-- Arrival & Offers section is start here -->
+       <section class="py-20 lg:px-24 px-4">
+         <div>
+          <!-- card-1 -->
+            <div>
+               <div class="bg-[#115414] rounded-lg">
+                <img src="./c2-assets/dawat-logo.png" alt="">
+                <button class="">Cook Exotic Dishes</button>
+               </div>
+               <div></div>
+            </div>
+            <!-- card-2 -->
+            <div></div>
+         </div>
+       </section>
+  </header>
+  <main></main>
+  <footer></footer>
+</body>
+</html>
